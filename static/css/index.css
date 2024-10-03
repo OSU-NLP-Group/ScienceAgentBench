@@ -144,13 +144,6 @@ body {
   padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  #org-banners {
-    flex-direction: column;
-    justify-content: space-around;
-  }
-}
-
 .sab_example{
   display: grid;
   grid-template-columns: 35% 55%;
@@ -161,4 +154,11 @@ body {
   grid-template-areas:
     "box1 box3"
     "box2 box4";
+}
+
+@media screen and (max-width: 768px) {
+  #org-banners {
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
