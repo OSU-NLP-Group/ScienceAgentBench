@@ -163,3 +163,4 @@ cython_debug/
 
 benchmark/*
 !benchmark/README.md
+.DS_Store
