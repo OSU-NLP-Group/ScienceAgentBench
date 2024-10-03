@@ -150,3 +150,15 @@ body {
     justify-content: space-around;
   }
 }
+
+.sab_example{
+  display: grid;
+  grid-template-columns: 35% 55%;
+  grid-template-rows: 100px 400px;
+  grid-column-gap: 5%;
+  grid-row-gap: 5%;
+  margin: 5%;
+  grid-template-areas:
+    "box1 box3"
+    "box2 box4";
+}
