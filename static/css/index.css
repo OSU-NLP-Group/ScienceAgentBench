@@ -112,7 +112,7 @@ body {
 }
 
 .results-carousel {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 /* .results-carousel .item {
