@@ -112,7 +112,7 @@ body {
 }
 
 .results-carousel {
-  overflow: scroll;
+  overflow: hidden;
 }
 
 /* .results-carousel .item {
@@ -142,6 +142,19 @@ body {
   height: 6em;
   margin: 10px;
   padding: 10px;
+}
+
+.sab_demo{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 40% 40%;
+  grid-column-gap: 5%;
+  grid-row-gap: 10%;
+  margin-left: 13%;
+  margin-bottom: 3%;
+  grid-template-areas:
+    "demo1 demo2"
+    "demo3 demo4";
 }
 
 .sab_example{

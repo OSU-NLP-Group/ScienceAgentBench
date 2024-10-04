@@ -111,8 +111,16 @@
             More Research
           </a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://osu-nlp-group.github.io/SeeAct/">
-              <b>SeeAct</b>
+            <a class="navbar-item" href="https://imageomics.github.io/bioclip/">
+              <b>BioCLIP</b>
+              <p style="font-size:18px; display: inline; margin-left: 5px;"></p>
+            </a>
+            <a class="navbar-item" href="https://osu-nlp-group.github.io/LLM4Chem/">
+              <b>LlaSMol</b>
+              <p style="font-size:18px; display: inline; margin-left: 5px;"></p>
+            </a>
+            <a class="navbar-item" href="https://tiger-ai-lab.github.io/MAmmoTH/">
+              <b>MAmmoTH</b>
               <p style="font-size:18px; display: inline; margin-left: 5px;"></p>
             </a>
             <a class="navbar-item" href="https://osu-nlp-group.github.io/TravelPlanner/">
@@ -122,11 +130,7 @@
             <a class="navbar-item" href="https://osu-nlp-group.github.io/Mind2Web/">
               <b>Mind2Web</b>
               <p style="font-size:18px; display: inline; margin-left: 5px;"></p>
-            </a>
-            <a class="navbar-item" href="https://osu-nlp-group.github.io/MagicBrush/">
-              <b>MagicBrush</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;"></p>
-            </a>
+            </a>  
           </div>
         </div>
       </div>
@@ -187,10 +191,12 @@
               <span class="author-block">
                 Yu Su*<sup style="color:#6fbf73;">1</sup>,</span>
               <span class="author-block">
-                Huan Sun*<sup style="color:#6fbf73;">1</sup>,</span>
+                Huan Sun*<sup style="color:#6fbf73;">1</sup></span>
             </div>
 
-            <div class="is-size-5 publication-authors">
+            <br />
+
+            <div class="is-size-6 publication-authors">
               <span class="author-block"><sup style="color:#6fbf73;">1</sup>Department of Computer and Science Engineering, OSU</span>
               <span class="author-block"><sup style="color:#6fbf73;">2</sup>College of Pharamacy, OSU</span><br>
               <span class="author-block"><sup style="color:#6fbf73;">3</sup>Department of Geography, UW-Madison</span>
@@ -271,19 +277,35 @@
   <section class="hero teaser">
     <div class="container" style="margin-bottom: 2vh;">
       <!-- Abstract. -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <div>
-            <video controls>
-              <source src="static/images/sab_demo.mp4" type="video/mp4">
+      <div class="content is-centered has-text-centered">
+        <div class="sab_demo">
+          <div id="demo1">
+            <video controls autoplay playsinline muted loop>
+              <source src="static/images/sab_demo_bio.mp4" type="video/mp4">
             </video>
+            <p> <strong>Bioinformatics</strong>: Train a cell counting model on the BBBC002 datasets. </p>
           </div>
-          <p> Task demo of ScienceAgentBench built with <a href="https://github.com/All-Hands-AI/OpenHands">OpenHands</a>.
-            <!-- <img src="static/images/icon.png" style="width:1.0em;vertical-align: middle" alt="Logo" /> 
-            Task Instruction (modified for the demo): Perform RRV analysis on the given data in "biosignals/bio_eventrelated_100hz.csv". Clean the RSP signal and extract the inhalation peaks of the signal and the respiratory rate signal. Then use these features to analyze RRV, getting a variety of RRV indices including time domain, frequency domain, and nonlinear features. Save your program to "RRV_analyze.py" and the results to "rrv_analysis_pred.csv". 
-            Expert-Provided Knowledge: Respiratory rate variability (RRV) is the term for variations in respiratory rhythm, or breathing rate. RSP refers to respiration. You may search for relevant tools in NeuroKit2, a user-friendly package providing easy access to advanced biosignal processing routines. -->
-          </p> 
+          <div id="demo2">
+            <video controls autoplay playsinline muted loop>
+              <source src="static/images/sab_demo_chem.mp4" type="video/mp4">
+            </video>
+            <p> <strong>Computational Chemistry</strong>: Train a multitask model on the Clintox dataset to predict a drug's toxicity and FDA approval status. </p>
+          </div>
+          <div id="demo3">
+            <video controls autoplay playsinline muted loop>
+              <source src="static/images/sab_demo_geo.mp4" type="video/mp4">
+            </video>
+            <p> <strong>Geographical Information Science</strong>: Analyze and visualize Elk movement by estimating home ranges and assessing habitat preferences with spatial analysis techniques. </p>
+          </div>
+          <div id="demo4">
+            <video controls autoplay playsinline muted loop>
+              <source src="static/images/sab_demo_psy.mp4" type="video/mp4">
+            </video>
+            <p> <strong>Psychology & Cognitive Neuroscience</strong>: Perform RRV analysis by cleaning the RSP signal and extracting its inhalation peaks & respiratory rate. </p>
+          </div>
         </div>
+
+        <p> <strong>Task demos of ScienceAgentBench built with <a href="https://github.com/All-Hands-AI/OpenHands">OpenHands</a> </strong> </p>.
       </div>
       <!--/ Abstract. -->
     </div>
