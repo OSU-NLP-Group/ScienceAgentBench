@@ -151,7 +151,6 @@ body {
   grid-column-gap: 5%;
   grid-row-gap: 10%;
   margin-left: 13%;
-  margin-bottom: 3%;
   grid-template-areas:
     "demo1 demo2"
     "demo3 demo4";
