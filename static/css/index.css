@@ -159,7 +159,7 @@ body {
 .sab_example{
   display: grid;
   grid-template-columns: 35% 55%;
-  grid-template-rows: 100px 400px;
+  grid-template-rows: 200px 500px;
   grid-column-gap: 5%;
   grid-row-gap: 5%;
   margin: 5%;
