@@ -164,3 +164,9 @@ cython_debug/
 test.py
 benchmark/*
 !benchmark/README.md
+pred_programs/
+pred_results/
+program_to_eval/
+requirements.in
+eval_requirements.txt
+*.jsonl
