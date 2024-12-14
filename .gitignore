@@ -178,5 +178,9 @@ gold.test.json
 benchmark
 benchmark.zip
 logs/
-temp/
+temp*/
 gold
+
+differences*.log
+manual_check.txt
+check_results.py
