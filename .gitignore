@@ -185,3 +185,4 @@ differences*.log
 manual_check.txt
 check_results.py
 logs*/
+run_evaluation.sh
