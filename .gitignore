@@ -186,3 +186,6 @@ manual_check.txt
 check_results.py
 logs*/
 run_evaluation.sh
+pred_programs*/
+docker_run.sh
+run_eval_old.sh
